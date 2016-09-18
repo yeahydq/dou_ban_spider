@@ -61,10 +61,7 @@ class DouBanSpider(object) :
 
     def find_title(self, my_page) :
         """
-
         通过返回的整个网页HTML, 正则匹配前100的电影名称
-
-        
         Args:
             my_page: 传入页面的HTML文本用于正则匹配
         """
